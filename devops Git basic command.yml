@@ -1,0 +1,51 @@
+
+How to install git
+
+ yum update -y
+    2  yum install git -y
+    3  git --version
+    4  git config --global user.name "Dev"
+    5  git config --global user.email "Dev@gmail.com"
+    6  whereis git
+    7  git config --list
+
+
+
+
+
+How to pull and push code on github 
+
+lunach 2 instance
+ 
+ Frist instance push code on Git
+
+
+cmd: mkdir dirname "mumbai"
+change dir
+cmd: git init for   "intilaztion git"
+Create a file with content means code 
+cmd: echo "This is mumbai code" > mumbai1
+cmd: git status 
+cmd:  git add .     "use "git add" to track file"
+cmd: git commit -m  "file name"  "for same save file"
+cmd: git log        "for checking what I commit"
+cmd: git show 6c394fac253(commit id)  "for checking code"
+cmd: git remote add origin (url of central repo "https://github.com/awscloud912/first-repo.git) "This cmd used for add local repo to remote repo" 
+cmd: git push -u origin master 
+
+
+Frist instance pull code on Git
+
+cmd: mkdir dirname "dir2"
+change dir
+cmd: git init for   "intilaztion git"
+cmd: git remote add origin (url of central repo)
+cmd: git pull -u origin master
+cmd: git log 
+cmd: echo "This is mumbai code" > mumbai1
+cmd: git status 
+cmd: git show
+cmd:  git add .
+cmd: git commit -m  "file name"
+cmd: git push -u origin master 
+

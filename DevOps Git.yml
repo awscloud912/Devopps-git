@@ -1,0 +1,130 @@
+Content
+1. Software development
+2. Software development lifecycle
+ 
+Software development lifecycle
+ 
+Waterfall model
+ 
+The Waterfall Model was the first Process Model to be introduced. It is also referred to as a linear-sequential
+life cycle model. It is very simple to understand and use. In a waterfall model,
+each phase must be completed before the next phase can begin and there is no overlapping in the phases.
+ 
+The Waterfall model is the earliest SDLC approach that was used for software development.
+ 
+The waterfall Model illustrates the software development process in a linear sequential flow.
+This means that any phase in the development process begins only if the previous phase is complete.
+In this waterfall model, the phases do not overlap.
+ 
+It oprate on UPDOWN phase
+ 
+Phases of waterfall model
+ 
+  1.Fisibility study
+  2.Requirment analysis
+  3.Design
+  4.Codeing and unit testing
+  5.System testing and integration
+  6.Maintance
+ 
+fisibility study
+  project is fisible or not
+  fisible includes (you do or not, budjet, project big or not, team )
+  time duration
+ 
+requirment analysis and specification
+  srs document create
+  requirment analysis (tools)
+  
+Design
+  Architecture design
+  trafic flow and every thing
+  
+coading and unit testing
+  code  
+  Unit testing (each unit test)
+  
+system testing and integration
+  combines all the module and test is called as system testing
+  after integration there is alpha testing and beta testing
+  alpha testing --> Devloper
+  beta --> coustmer testing
+  
+Maintance
+  Maintance is very important
+  if any bug error comes then need to fix it
+  
+  
+Advantages:
+  1. Basic Model (the model which are comming for them it act as a base model)
+  2. simple and easy
+  3. it is good for small project
+  
+Disadvantages:
+  1. No feedback (it flow team by team no feedback,it runs phase by phase)
+  2. No experiment
+  3. No parallelisum (at a time multiple team can not work, they should work one by one)
+  4. High risk (beacuse of no flexibility)
+  5. All feedback is gathered on mainatainance stage
+   
+  
+Agile Model
+  The software is broken down into small small iterations
+  Each iterations having the duration of 2 weeks to 8 weeks
+  Iterations 1
+    Plan
+    Design
+    Develop
+    Test   
+    Deploy
+    Review
+    Launch
+  
+  Gather the bugs and feedback from the clients and qa team overcomes them in the second iterations
+  Iterations 2
+    Plan
+    Design
+    Develop
+    Test
+    Deploy
+    Review
+    Launch  
+ 
+Agile is more about software development and Devops is more about automation , continuous delivery,
+continous monitoring. Both can co-exist. Agile vs Devops is more like comparing apples to oranges.
+ 
+Agile - Development methodology or framework &
+DevOps - A process which enables the developed code to get into Env (dev,qa,prod) via CI/CD automation.
+Hence I would say Devops can be one of the integral part of Agile application development,
+if the agile team embraces automation testing instead of manual testing,
+automated deployment instead of manual deployments, automated monitoring instead of manual monitoring
+ 
+ 
+To overcomes this problem
+ 
+What is DevOps?
+ 
+The DevOps is a combination of two words, one is software Development, and second is Operations.
+This allows a single team to handle the entire application lifecycle, from development to testing, deployment,
+and operations. DevOps helps you to reduce the disconnection between software
+developers, quality assurance (QA) engineers, and system administrators.
+ 
+DevOps diagram link --> https://miro.medium.com/max/1076/1*57__j14aNQfmPZyFoS1yRg.png
+ 
+Helpfull devops introduction links --> https://medium.com/@raycad.seedotech/devops-methodology-and-process-dde388eb65bd
+ 
+https://www.edureka.co/blog/what-is-devops/
+ 
+DevOps promotes collaboration between Development and Operations team to deploy code to production faster in an
+automated & repeatable way.
+ 
+DevOps helps to increase organization speed to deliver applications and services. It also allows organizations
+to serve their customers better and complete more strongly in the market.
+ 
+DevOps can also be defined as a sequence of development and IT operations with better communication and collaboration.
+ 
+It allows us the continuous integration
+It allows us the continuous delivery
+It allows us the continuous deployment
+It allows us the continuous monitering
+ 

@@ -1,0 +1,96 @@
+
+
+Here's a general overview of the GitHub workflow:
+
+1. Create a repository: A developer creates a repository (repo) on GitHub to store their project's code.
+
+2. Clone the repository: The developer clones the repository to their local machine using the command git clone.
+
+3. Make changes: The developer makes changes to the code, adds new files, or modifies existing ones.
+
+4. Commit changes: The developer commits their changes to their local repository using git commit and includes a commit message describing the changes.
+
+5. Push changes: The developer pushes their committed changes to the remote repository on GitHub using git push.
+
+6. Create a pull request: The developer creates a pull request to merge their changes into the main branch (usually "main" or "master").
+
+7. Review and approve: Collaborators review the pull request, make comments, and approve or request changes.
+
+8. Merge pull request: The pull request is merged into the main branch.
+
+9. Deploy: The updated code is deployed to a production environment.
+
+10. git branch -M main: This command is used to rename the current branch to "main". The -M option is a shortcut for --move --force, 
+                        which allows you to rename the branch even if there is already a branch with the target name.
+
+11. git remote -v: The git remote -v command displays the current remote repositories associated with your local Git repository along with their URLs.
+
+12. git remote remove origin: This command removes the remote named origin from your local Git repository.
+
+13. git fetch origin: When you run this command you are instructing Git to retrieve updates from the remote repository named origin.
+
+14. git clone: This commands  command is used to create a copy of an existing Git repository. It clones the entire repository, including all of its history, branches, 
+               and tags, to your local machine
+
+
+
+
+How to install git
+
+ yum update -y
+    2  yum install git -y
+    3  git --version
+    4  git config --global user.name "Dev"
+    5  git config --global user.email "Dev@gmail.com"
+    6  whereis git
+    7  git config --list
+
+
+
+
+
+How to pull and push code on github 
+
+lunach 2 instance
+ 
+ Frist instance push code on Git
+
+
+cmd: mkdir dirname "mumbai"
+change dir
+cmd: git init for   "intilaztion git"
+Create a file with content means code 
+cmd: echo "This is mumbai code" > mumbai1
+cmd: git status 
+cmd:  git add .     "use "git add" to track file"
+cmd: git commit -m  "file name"  "for same save file"
+cmd: git log        "for checking what I commit"
+cmd: git show 6c394fac253(commit id)  "for checking code"
+cmd: git remote add origin (url of central repo "https://github.com/awscloud912/first-repo.git) "This cmd used for add local repo to remote repo" 
+cmd: git push -u origin master 
+
+
+Frist instance pull code on Git
+
+cmd: mkdir dirname "dir2"
+change dir
+cmd: git init for   "intilaztion git"
+cmd: git remote add origin (url of central repo)
+cmd: git pull -u origin master
+cmd: git log 
+cmd: echo "This is mumbai code" > mumbai1
+cmd: git status 
+cmd: git show
+cmd:  git add .
+cmd: git commit -m  "file name"
+cmd: git push -u origin master 
+
+How create brach and merge
+
+cdm: git log --oneline " Checking commit"
+
+cmd: git branch   "current branch"
+
+cmd: git checkout Branch1 "its is used for switching branch"
+
+cmd: git merge Branch name  "for merging branch"
